@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather App</title>
+    <link href="styles.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="pics/weather-news.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <div class="main">
+        <p class="header">Weather Forecast</p>
+        <div class="search">
+            <input type="text" class="searchbar" id="searchbar" placeholder="Enter city name...">
+            <button class="search-button" id="searchbutton" title="Search"><img
+                    src="pics\\magnifying-glass.png"></button>
+        </div>
+        <div class="bottom-panel">
+            <div class="bottom-panel-left">
+                <div class="bottom-panel-left-everything">
+                    <p class="cityname" id="cityname">Please enter the the city name you would like.</p>
+                    <div class="icon-temp">
+                        <div class="img-container">
+                            <img id="icon" src="">
+                        </div>
+                        <div class="temperature-div">
+                            <p class="temperature" id="temperature"></p>
+                            <p class="maxmintemp" id="maxmintemp"></p>
+                        </div>
+                    </div>
+                    <p class="feels" id="feels"></p>
+                    <p class="description" id="description"></p>
+                    <p class="pressure" id="pressure"></p>
+                    <p class="humidity" id=humidity></p>
+                    <p class="wind" id="wind"></p>
+                </div>
+            </div>
+            <div class="bottom-panel-right">
+                <div class="bottom-panel-right-everything">
+                    <p class="right-info" id="right-info"></p>
+                    <div class="day" id="day1">
+                        <p class="date" id="date1"></p>
+                        <img class="dayicon" id="day1icon" src="">
+                        <p class="daytemp" id="day1temp"></p>
+                        <p class="dayinfo" id="day1info"></p>
+                    </div>
+                    <div class="day" id="day2">
+                        <p class="date" id="date2"></p>
+                        <img class="dayicon" id="day2icon" src="">
+                        <p class="daytemp" id="day2temp"></p>
+                        <p class="dayinfo" id="day2info"></p>
+                    </div>
+                    <div class="day" id="day3">
+                        <p class="date" id="date3"></p>
+                        <img class="dayicon" id="day3icon" src="">
+                        <p class="daytemp" id="day3temp"></p>
+                        <p class="dayinfo" id="day3info"></p>
+                    </div>
+                    <div class="day" id="day4">
+                        <p class="date" id="date4"></p>
+                        <img class="dayicon" id="day4icon" src="">
+                        <p class="daytemp" id="day4temp"></p>
+                        <p class="dayinfo" id="day4info"></p>
+                    </div>
+                    <div class="day" id="day5">
+                        <p class="date" id="date5"></p>
+                        <img class="dayicon" id="day5icon" src="">
+                        <p class="daytemp" id="day5temp"></p>
+                        <p class="dayinfo" id="day5info"></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
